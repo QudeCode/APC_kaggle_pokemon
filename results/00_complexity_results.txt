@@ -1,0 +1,148 @@
+------------Most important results:------------
+Dataset length: 801
+Columns with NaNs: 4
+Non-numeric columns: 7
+
+------Class imbalance:------
+---is_legendary:---
+is_legendary
+0    0.912609
+1    0.087391
+Name: proportion, dtype: float64
+
+---type1:---
+type1
+water       0.142322
+normal      0.131086
+grass       0.097378
+bug         0.089888
+psychic     0.066167
+fire        0.064919
+rock        0.056180
+electric    0.048689
+poison      0.039950
+ground      0.039950
+dark        0.036205
+fighting    0.034956
+ghost       0.033708
+dragon      0.033708
+steel       0.029963
+ice         0.028714
+fairy       0.022472
+flying      0.003745
+Name: proportion, dtype: float64
+
+---type2:---
+type2
+flying      0.227818
+poison      0.081535
+ground      0.081535
+fairy       0.069544
+psychic     0.069544
+fighting    0.059952
+steel       0.052758
+dark        0.050360
+grass       0.047962
+water       0.040767
+dragon      0.040767
+ice         0.035971
+rock        0.033573
+ghost       0.033573
+fire        0.031175
+electric    0.021583
+bug         0.011990
+normal      0.009592
+Name: proportion, dtype: float64
+
+------------------Detailed results:------------------
+
+Dataset length: 801
+
+NaNs:
+abilities              0
+against_bug            0
+against_dark           0
+against_dragon         0
+against_electric       0
+against_fairy          0
+against_fight          0
+against_fire           0
+against_flying         0
+against_ghost          0
+against_grass          0
+against_ground         0
+against_ice            0
+against_normal         0
+against_poison         0
+against_psychic        0
+against_rock           0
+against_steel          0
+against_water          0
+attack                 0
+base_egg_steps         0
+base_happiness         0
+base_total             0
+capture_rate           0
+classfication          0
+defense                0
+experience_growth      0
+height_m              20
+hp                     0
+japanese_name          0
+name                   0
+percentage_male       98
+pokedex_number         0
+sp_attack              0
+sp_defense             0
+speed                  0
+type1                  0
+type2                384
+weight_kg             20
+generation             0
+is_legendary           0
+dtype: int64
+
+Data types:
+abilities             object
+against_bug          float64
+against_dark         float64
+against_dragon       float64
+against_electric     float64
+against_fairy        float64
+against_fight        float64
+against_fire         float64
+against_flying       float64
+against_ghost        float64
+against_grass        float64
+against_ground       float64
+against_ice          float64
+against_normal       float64
+against_poison       float64
+against_psychic      float64
+against_rock         float64
+against_steel        float64
+against_water        float64
+attack                 int64
+base_egg_steps         int64
+base_happiness         int64
+base_total             int64
+capture_rate          object
+classfication         object
+defense                int64
+experience_growth      int64
+height_m             float64
+hp                     int64
+japanese_name         object
+name                  object
+percentage_male      float64
+pokedex_number         int64
+sp_attack              int64
+sp_defense             int64
+speed                  int64
+type1                 object
+type2                 object
+weight_kg            float64
+generation             int64
+is_legendary           int64
+dtype: object
+
